@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+
+
+    <h1 class="alert alert-danger">Olá {{nomeEu}}</h1>
+    <p class="btn btn-primary">
+      {{vetor}}
+    </p>
+    <br>
+    <p class="alert alert-success">
+      {{vetor[0] + " faz divisa com " + vetor[vetor.length-1]}}
+    </p>
+
+    <table class="table table-striped">
+      <tr *ngFor="let i of vetor, let o=index">
+        <td>
+          {{o}}
+        </td>
+        <td>
+          {{i}}
+        </td>
+      </tr>
+    </table>
+    <div>
+      <p>{{dados.nome}}</p>
+      <!-- <p>{{dados.cidade}}</p> -->
+      <!-- <p>{{dados.professor}}</p> -->
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "objeto":{
+    "nome": "Senai",
+    "cidade":"Mogi",
+    "estado":"SP",
+    "curso":"Técnico em Desenvolvimento de Sistemas",
+    "professor":"Carlinhos"
+  }
+}
